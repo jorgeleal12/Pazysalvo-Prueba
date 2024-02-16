@@ -1,0 +1,109 @@
+{
+    "id": "3b85eeea-e195-490d-a70d-9dd057edbc9a",
+    "appId": "81077c44-a699-44f8-a0d1-bd3bea943a9b",
+    "name": "Pazysalvos-Pgnv3-aad",
+    "accessTokenAcceptedVersion": 2,
+    "signInAudience": "AzureADMyOrg",
+    "optionalClaims": {
+        "idToken": [],
+        "accessToken": [
+            {
+                "name": "idtyp",
+                "source": null,
+                "essential": false,
+                "additionalProperties": []
+            }
+        ],
+        "saml2Token": []
+    },
+    "requiredResourceAccess": [
+        {
+            "resourceAppId": "00000003-0000-0000-c000-000000000000",
+            "resourceAccess": [
+                {
+                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+                    "type": "Scope"
+                }
+            ]
+        }
+    ],
+    "oauth2Permissions": [
+        {
+            "adminConsentDescription": "Allows Teams to call the app's web APIs as the current user.",
+            "adminConsentDisplayName": "Teams can access app's web APIs",
+            "id": "af0e5e2d-b644-488a-9451-428517c1024c",
+            "isEnabled": true,
+            "type": "User",
+            "userConsentDescription": "Enable Teams to call this app's web APIs with the same rights that you have",
+            "userConsentDisplayName": "Teams can access app's web APIs and make requests on your behalf",
+            "value": "access_as_user"
+        }
+    ],
+    "preAuthorizedApplications": [
+        {
+            "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        },
+        {
+            "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        },
+        {
+            "appId": "d3590ed6-52b3-4102-aeff-aad2292ab01c",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        },
+        {
+            "appId": "00000002-0000-0ff1-ce00-000000000000",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        },
+        {
+            "appId": "bc59ab01-8403-45c6-8796-ac3ef710b3e3",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        },
+        {
+            "appId": "0ec893e0-5785-4de6-99da-4ed124e5296c",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        },
+        {
+            "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        },
+        {
+            "appId": "4345a7b9-9a63-4910-a426-35363201d503",
+            "permissionIds": [
+                "af0e5e2d-b644-488a-9451-428517c1024c"
+            ]
+        }
+    ],
+    "identifierUris": [
+        "api://localhost:53000/81077c44-a699-44f8-a0d1-bd3bea943a9b"
+    ],
+    "replyUrlsWithType": [
+        {
+            "url": "https://localhost:53000/auth-end.html",
+            "type": "Web"
+        },
+        {
+            "url": "https://localhost:53000/auth-end.html?clientId=81077c44-a699-44f8-a0d1-bd3bea943a9b",
+            "type": "Spa"
+        },
+        {
+            "url": "https://localhost:53000/blank-auth-end.html",
+            "type": "Spa"
+        }
+    ]
+}

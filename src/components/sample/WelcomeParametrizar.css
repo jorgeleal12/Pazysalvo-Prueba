@@ -1,0 +1,95 @@
+.grid1parametriza{
+    margin-top: 40px;
+
+}
+.celdaBtnCrear {
+  align-items: center;
+}
+.pantallaparame{
+    margin: 18px;
+    width: 500px
+}
+.GridTiempos{
+    grid-template-columns: 260px 230px !important;
+    grid-template-rows: repeat(2, 40px) !important;
+}
+#EmergenteParam .ui-box{
+    height: 34px !important;
+    margin: 5px !important;
+}
+#timpomax, #timpomin{
+    width: 110px !important;
+    border-width: 2.5px !important;
+    border-color: #dddddd;
+    border-radius: 4px !important;
+    height: 32px !important;
+    float: right;
+    margin-top: 3px;
+}
+.k #react-select-2-input{
+    height: 20px !important;
+}
+.k #react-select-3-input{
+    height: 20px !important;
+}
+/*
+#EmergenteParam .css-1jqq78o-placeholder {
+       margin-top: -30px!important;
+}
+#react-select-2-input{
+    height: 28px !important;
+}*/
+#EmergenteParam .css-1dimb5e-singleValue {
+    align-content: center;
+    margin-top: -5px;
+}
+#EmergenteParam  .css-13cymwt-control{
+    min-height: 20px !important;
+    height: 34px !important;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    border-color: #dddddd !important;
+    border-radius: 3px !important;
+    border-width: 3px !important
+}
+#EmergenteParam .ui-label{
+    height: 35px !important;
+}
+#EmergenteParam .css-1hb7zxy-IndicatorsContainer{
+    height: 26px!important;
+}
+#EmergenteParam .css-qbdosj-Input {
+    height: 24px !important;
+}
+.labelPlantillaParametriza{
+    margin-left: 15px
+}
+.pantallaparame{
+    margin-right: 18px;
+  }
+#CuadrosParame .ui-label {
+   margin-top: 3px !important;
+  }
+#CuadrosParame{
+    width: 1100px !important;
+  }
+.TextArea1{
+    height: 300px !important;
+    width: 530px!important;
+    padding-left: 30px !important;
+    border-color: rgb(206, 206, 206)!important;
+    border-width: 2px!important;
+    border-radius: 10px !important;
+    margin-right: 20px!important;
+  }
+  .btnparametrizar{
+      margin-left: 15px !important;
+      margin-top: 15px !important;
+      margin-bottom: 10px !important;
+      align-self: self-end;
+  }
+.btnAplicar{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 110px;
+}

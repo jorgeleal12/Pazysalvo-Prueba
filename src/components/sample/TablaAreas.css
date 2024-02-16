@@ -1,0 +1,117 @@
+/*encabezado tabla*/
+.ui-table__header{
+    background-color: rgb(211, 211, 211) !important;
+    font-weight: bold;
+    color:rgb(88, 88, 88) !important;
+    font-size: 13px !important;
+    display: flex !important;
+    justify-content: space-between;
+}
+.gb{
+    font-size: 13px !important;
+}
+.hj {
+    align-self: center;
+    margin-left: 0px;
+}
+.ui-table__cell{
+    overflow: hidden !important; 
+    margin-left: 0px !important; 
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    align-items: center;
+    padding: 10px !important;
+   
+}
+button.ui-button.bu.bv.bw.b.bx.by.bz.ca.cb.cc.ar.ap.bf.cd.ce.cf.cg.ch.ci.cj.cl.cm.cn.co.cp.cq.cr.cs.ct.cu.cv.cw.cx.cy.cz.da.db.dc.dd.de.df.dg.dh.di.dj.dk.dl.dm.dn.do.dp.dq.dr.ds.dt.du.dv.dw.dx.dy.dz.ea.eb.ec.ed.ee.ef.eg.eh.ei.ej.ek.el.em.en.eo.ep.eq.er.es.et.eu.ev.ew.ex.ey.ez.fb.fd.fe.ff.fg.fh.fi.fj.fk.fl.fm.fn.fo.fp.fq.fr.fs.ft.fu {
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none;
+    margin-left: 30;
+}
+
+body{
+    background-color: #eaeaea !important;
+}
+
+.a{
+    background: #eaeaea !important;
+}
+
+.hj{
+    align-self: auto !important;
+}
+
+.as {
+    flex-direction: column;
+    margin-left: 30px !important;
+    /*margin-bottom: 30px !important;
+    margin-right: 30px !important;
+    margin-top: 15px;
+    width: 260px;  no quitar */
+}
+.volverSoli{
+    margin-left: 12px !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+.NameSoli{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(77, 77, 77)
+
+}
+.NameArea{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+}
+/*boton para ir a crear nueva area*/
+.buttonNewArea{
+    width: 150px !important;
+    margin-left: 0px !important;
+    margin-top: 30px;
+    font-weight: bold;
+    box-shadow:none!important;
+    text-decoration-line: none !important;
+    background-color: transparent !important;
+}
+/*boton editar*/
+.editbutton{
+    color:#5b5fc7 !important; 
+}
+button.ui-button.hq.hr.bw.b.bx.by.bz.ca.cb.cc.ar.ap.bf.cd.hg.cf.hh.ch.ci.cj.cl.cn.co.cp.cq.cr.cs.ct.cu.cv.cw.cx.cy.cz.da.db.dc.dd.de.df.dg.dh.di.dj.dk.dl.dm.dn.do.dp.dq.dr.ds.dt.du.dv.dw.dx.dy.dz.ea.eb.ec.ed.ee.ef.eg.eh.ei.ej.ek.el.em.en.eo.ep.eq.er.es.et.eu.ev.ew.ex.ey.ez.fb.fd.fe.ff.fg.fh.fi.fj.fk.fl.fm.fn.fo.fp.fq.fr.fs.ft.fu{
+    margin-top: auto;
+    justify-items: center;
+    align-items: center;
+    margin-left: -15px;
+    width: 30px !important;
+}
+.btnApro{
+    margin-left: 15px;
+    margin-right: 30px !important;
+    margin-bottom: 10px;
+    width: 160px !important;
+    font-size: 10px !important;
+    background-color: rgb(122, 122, 213) !important;
+    border: 2.5px solid black !important;
+    border-color: rgb(122, 122, 213)!important;
+}
+.EstiloInformes{
+    margin: 30px;
+}
+#Inform .ui-label {
+    margin-top: 0px;
+}
+@media screen and (max-width: 720px) {
+
+    .ui-table{
+        width: 660px;
+        padding-right: 30px;
+    }
+}

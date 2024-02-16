@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+}
+#CorreoPersonal ,#cargo{
+  width: 271px !important;
+  height: 40px;
+  margin-left: 0px;
+}
+#CorreoPersonal .as {
+  margin-left: 0px;
+}
+#cargo .as {
+  margin-left: 0px;
+}
+#AgregarUsuario .ui-label{
+ margin-top: 10px !important;
+ font-weight: normal;
+ color: black; 
+}
+
+.TituloEmg{
+  font-weight: bold !important;
+  font-size: large !important;
+}
+.TxtEmg {
+  height: 60px !important;
+}
+#EmgAgregar{
+  justify-items: center;
+  width: 460;
+}
+#EmgAgregar .ui-button {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}

@@ -1,0 +1,9 @@
+.Contenedor2 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Texto {
+  position: absolute;
+  top: 50%;
+}

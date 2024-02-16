@@ -1,0 +1,19 @@
+.section-margin {
+  margin-left: 20px;
+}
+
+.mgt-light {
+  background-color: inherit !important;
+}
+
+.mgt-dark {
+  background-color: inherit !important;
+}
+
+.btnIngresar{
+  margin: 10px;
+}
+
+.Centrarbtn{
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+BROWSER=none
+HTTPS=true
+PORT=53000
+SSL_CRT_FILE=/home/aleal/.fx/certificate/localhost.crt
+SSL_KEY_FILE=/home/aleal/.fx/certificate/localhost.key
+REACT_APP_CLIENT_ID=81077c44-a699-44f8-a0d1-bd3bea943a9b
+REACT_APP_START_LOGIN_PAGE_URL=https://localhost:53000/auth-start.html
+REACT_APP_FUNC_NAME=getUserProfile
+REACT_APP_FUNC_ENDPOINT=http://localhost:7072

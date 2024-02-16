@@ -1,0 +1,184 @@
+
+.IDSolicitud{
+    font-size: 13px;
+    margin-left: 30px;
+    font-weight: bold;
+    color:rgb(0, 0, 0) !important
+}
+/*
+.DatosTable{
+    margin-left: 15px;
+    background-color: transparent;
+    width: 200px;
+    height: 30px;
+    margin-top: 150px;
+    border-bottom: none !important;
+    margin-bottom: -15px;
+    padding-bottom: 10px;
+}
+*/
+.contenedor
+{
+    display: flex;
+}
+.DatosTable input{
+    margin-left: 0px;
+    margin-top: -5px;
+    width: 200px;
+    height: 30px;
+    font-size: 10px !important;
+    border-color:transparent !important;
+    box-shadow: none !important;
+}
+
+.DatosTable label{
+    background-color: #eaeaea;
+    color:rgb(77, 77, 77);
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.divTable{
+    display: grid;
+    /*width: 1600px;*/
+    float: left;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 65px);
+}
+.divcomplete{
+    height: 230px;
+}
+.buttonexterno{
+    width: 170px;
+    display: block;
+	margin:20px;
+}
+
+
+
+.buttonSigdea{
+ width: 165px!important;
+ height: 30px !important;  
+ margin-bottom: 5px;
+ background-color: white !important;
+border-radius: 4px !important;
+border-color: black;
+border: 1px solid black !important;
+align-items: flex-end;
+
+}
+
+.buttonSim{
+    width: 165px!important;
+    height: 30px !important;  
+    margin-bottom: 5px;
+    background-color: white !important;
+    border-radius: 4px !important;
+    border-color: black;
+    border: 1px solid black !important;
+}
+
+.buttonSiri{
+    width: 165px!important;
+    height: 30px !important; 
+    margin-bottom: 5px;
+    background-color: white !important;
+    border-radius: 4px !important;
+    border: 1px solid black !important;
+}
+.campana{
+  color: rgb(214, 143, 143);
+  background-color: white !important;
+}
+
+.n{
+    text-align: right;
+}
+.buttonsave{
+   
+    font-size: 10px !important;
+    margin-bottom: 5px;
+    margin-right: 30px !important;
+    background-color: white !important;
+    border: 2.5px solid black !important;
+    border-color: rgb(122, 122, 213)!important;
+}
+
+.labelcontactar{
+    margin-top:0px;
+    margin-left: 30px !important;
+    font-weight: bold;
+}
+.ButtonsInteract{
+margin-top: 0px;
+margin-left: 0px;
+text-align: center;
+padding-right: 10px;
+border-radius: 50%;
+background-color: transparent !important;
+box-shadow: none !important;
+   
+}
+.buttonMessage{
+    width: 5px!important;
+    padding: 0px !important;
+    margin-top: 0px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #4b535a !important;
+}
+.buttonCall{
+    width: 5px!important;
+    padding: 0px !important;
+    margin-top: 0px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #4b535a !important;
+
+}
+.buttonShare{
+    width: 0px !important;
+    padding: 0px !important;
+    margin-top: 0px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline-color: transparent !important;
+    color: #4b535a !important;
+}
+
+#fileaprob {
+    display: none;
+    
+}
+.fileaproblbl label{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: -29px;
+}
+.fileaproblbl .ui-icon{
+    cursor: pointer;
+
+}
+#fileUsufinal{    
+    display: none;      
+}
+.fileusufinal label{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: -29px;
+}
+.fileusufinal .ui-icon{
+    cursor: pointer;
+
+}

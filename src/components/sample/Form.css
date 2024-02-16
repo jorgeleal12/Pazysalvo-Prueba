@@ -1,0 +1,467 @@
+mgt-people-picker {
+  --input-border: 2px rgba(255, 255, 255, 0.5) solid; /* sets all input area border */
+
+    /* OR individual input border sides */
+    /*
+  --input-border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+  --input-border-right: 2px rgba(255, 255, 255, 0.5) solid;
+  --input-border-left: 2px rgba(255, 255, 255, 0.5) solid;
+  --input-border-top: 2px rgba(255, 255, 255, 0.5) solid;
+  */
+
+  /*--input-background-color: #1f1f1f; /* input area background color */
+  --input-border-color--hover: #008394; /* input area border hover color */
+  --input-border-color--focus: #0f78d4; /* input area border focus color */
+
+  /*--dropdown-background-color: #1f1f1f; /* selection area background color */
+  --dropdown-item-hover-background: rgb(255, 255, 255); /* person background color on hover */
+  
+  --selected-person-background-color: rgb(255, 255, 255); /* person item background color */
+  
+  --color: gray; /* input area border focus color */
+  --placeholder-color: gray; /* placeholder text color */
+  --placeholder-color--focus: rgba(255, 255, 255, 0.8); /* placeholder text focus color */
+  --margin-left: 50px !important
+  
+}
+
+.PeoplePickerone{
+margin-left: 40px !important;
+font-weight: bold;
+}
+.btnVolverAreas{
+  background-color: transparent !important;
+  margin-left: 30px;
+  box-shadow: none !important;
+}
+.relativo{
+  position: relative !important;
+}
+.crentrar{
+  width: 50px!important;
+  height: 50px!important;
+  background-color: red!important;
+  /* centrar vertical y horizontalmente */
+  position: absolute!important;
+  top: 50%!important;
+  left: 50%!important;
+  margin: -25px 0 0 -25px!important; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+
+}
+.NewAreaCrear{
+  margin-left: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+  }
+.NewDatosCrear {
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(77, 77, 77);
+}
+
+/*
+input#NombreArea{
+  margin-left: -16;
+  background-color: white !important;
+  border-radius: 0%;
+  width: 200px;
+  margin-right: 30px;
+  height: 30px;
+  font-size: 14px;
+  }
+.grid1{
+  margin-left:80px;
+  font-weight: bold;
+  grid-template-columns: repeat(4, 1fr) !important;
+}*/
+
+
+.labelgrid1 {
+  margin-left: 30px !important;
+  font-weight: bold;
+  margin-top: -5px !important;
+}
+
+.InputArea {
+  margin-left: 0px !important;
+}
+
+.ke {
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
+
+.labeltiempo{
+  margin-top: 0px;
+  margin-left: 28px;
+}
+.inputtiempo{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+input#TiempoMaximoRespuestaSolicitudes {
+  position: static !important;
+  border-radius: 0%;
+  width: 150px !important;
+  margin-left: 30px;
+}
+
+input#TiempoMaximoRespuestaDias {
+  position: static !important;
+  background-color: white !important;
+  border-radius: 0% !important;
+  border: none !important;
+  width: 150px !important;
+  height: 30px !important;
+  font-size: 14px !important;
+
+}
+.diveij{
+  width: 1230px !important;
+}
+.GridNombre{
+  margin-left: 60px;
+  grid-template-columns: 780px 385px !important;
+  grid-template-rows: repeat(1, 90px) !important;
+
+}
+.Grid1{
+  margin-left: 60px;
+  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-rows: repeat(1, 80px) !important;
+}
+.Grid1Update{
+  margin-left: 60px;
+  grid-template-columns: 380px 550px 240px !important;
+  grid-template-rows: repeat(1, 80px) !important;
+}
+
+.grid3{
+  margin-left: 44px;
+  justify-content: left !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-rows: repeat(1, 250px) !important;
+}
+#cards .aq{
+    background-color: white!important;
+}
+#cards .as{
+  margin-left: 0px !important;
+  background-color: transparent !important;
+}
+#cards .ui-grid {
+  padding: 8;
+  background-color: white!important;
+  width: 100%;
+  grid-template-columns: 280px 40px;
+}
+#cards .IcoBasura {
+  padding-right: 5px;
+  display: flex !important;
+  justify-content: end;
+  padding-left: 0px;
+}
+#cssSeleccion .pg {
+  grid-template-rows: 23px 40px !important;
+}
+/*segunda fila*/
+.labeladmapro{
+  font-weight: bold;
+  display: block;
+  width: 265px;
+  margin-top: 0px;
+  color: rgb(124, 124, 124) !important;
+}
+.ui-input__label{
+  font-weight: bold;
+  width: 200px;
+  color: rgb(124, 124, 124) !important;
+}
+/*.ui-grid{
+ height: 65px; /*ajusta tamaño
+}*/
+.Inputcorreoadmin{
+  height: 65px;
+  margin:0px;
+  width: 380;
+  margin-left: 50px;
+}
+
+.labelcargoadmi{
+  margin-left: 10px !important;
+  font-weight: bold;
+  /*margin-top: 0px;*/
+  width: 300px;
+  }
+.Inputcargoadmin{
+  margin-top: -10px;
+  margin-left:15px !important;
+  height: 40px;
+  font-size: 14px;
+}
+/*tercera fila*/
+.Inputcorrapro{
+  height: 65px;
+  margin:0px;
+  margin-left: 50px;
+  font-size: 14px;
+  width: 380;
+}
+
+.inputcargoapro{
+  margin-top: -10px;
+  margin-left:15px !important;
+  height: 40px;
+  font-size: 14px;
+  }
+  .labelcargoapro{
+    margin-top: 5px;
+    margin-left: 10px !important;
+    font-weight: bold;
+    }
+  /*botones de agregar y guardar*/
+    
+    .buttonagregar{
+    Width:100px;
+    background-color: rgb(91, 95, 199) !important;
+    color:white !important;
+    margin-top: 25px;
+    padding-right: 50px;
+    margin-left: 30px;
+    }
+    .buttonguardarend{
+    margin-top: 46px;
+    width: 105px;
+    }
+    .columns{
+      grid-template-rows: 23px 40px !important;
+    }
+#btnCrearArea{
+  margin-top: 45px;
+  width: 100px;
+  margin-left: 0px;
+}
+#btnModificarArea{
+  margin-top: 45px;
+  width: 110px;
+}
+  /*card*/
+  .areacard{
+    margin-top: 30px !important;
+    margin-left: 0px !important;
+    margin-right: 8px !important;
+    width: 405px !important;
+  }
+
+  .labelcard{
+    width: 370px;
+    background-color: #c8c8c8;
+    height: 40px !important;
+    padding: 10px;
+    padding-left: 20;
+  }
+  .ic {
+    justify-content: none;
+    grid-template-rows: repeat(1, 30px) !important;
+  }
+
+.IcoBasura{
+  padding-top: 5px;
+  padding-left: 50px;
+}
+.ui-dropdown__container{
+  width: 200px !important;
+}
+#inputAdmArea .kq {
+  grid-template-rows: 23px 40px;
+}
+#inputAdmArea input[id=CorreoAdmin]{
+  background-color: rgb(212, 212, 212);
+
+}
+#inputAproArea input[id=CorreoAprobador]{
+  background-color: rgb(212, 212, 212) ;
+
+}
+#inputAproArea .kq {
+  grid-template-rows: 23px 40px;
+}
+#inputAdmUpdArea .pg {
+  grid-template-rows: 23px 40px;
+}
+#inputAproUpdArea .pg {
+  grid-template-rows: 23px 40px;
+}
+#inputAdmUpdArea input[id=CorreoAdmin]{
+  background-color: rgb(212, 212, 212);
+
+}
+#inputAproUpdArea input[id=CorreoAprobador]{
+  background-color: rgb(212, 212, 212) ;
+
+}
+  /*
+@media screen and (max-width: 1200px){
+  .Grid1{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+}
+@media screen and (max-width: 1075px){
+  .Grid1{
+      width: 800px !important;
+      height: auto;
+      margin-left: 100px;
+      margin-right: 30px;
+      grid-template-columns: repeat(2, 260PX) !important;
+  }
+  .inputcargoapro, .Inputcargoadmin{
+    margin-left: 30px !important;
+  }
+  .labelcargoadmi,.labelcargoapro{
+    margin-left: 30px !important;
+  }
+.buttonagregarAdmin{
+  width: 300PX;
+}
+.buttonagregarAprobador{
+  width: 300PX;
+}
+}
+@media screen and (max-width: 809px){
+  .Grid1{
+      justify-content: left !important;
+      margin-left: 20px !important;
+      margin-right: 30px;
+      grid-template-columns: repeat(1, 350PX) !important;
+      
+  }
+  .grid3{
+    justify-content: start !important;
+    margin-left: 40PX !important;
+    margin-right: 30px;
+    grid-template-columns: repeat(1, 350PX) !important;
+    
+  }
+  .Inputcorrapro,.Inputcorreoadmin{
+    margin-left: 0px !important;
+  }
+    .Inputcargoadmin,.inputcargoapro {
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+    }
+  
+    .labelcargoapro,.labelcargoadmi{
+      margin-left: 0px !important;
+    }
+    .buttonagregarAdmin {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+    .buttonagregarAprobador {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+}
+
+
+.if {
+grid-template-columns: repeat(3, 1fr) !important;
+margin-left: 15px;
+
+}.ui-grid.ib.ic.id.ie.ii.ij.ih{
+margin-left: 40px;
+width: 200px;
+}.ig {
+margin-top: 15px;
+} 
+  .grid2{
+  margin-left: 100px !important;
+  font-weight: bold; 
+  background-color: #008394;
+  }
+.hv {
+margin-left: 10px;
+}
+
+.hg {
+margin-top: 40px;
+}
+
+.ht {
+padding-left: 0px;
+}
+
+
+
+.iv {
+padding-left: 10px;
+}
+.iv {
+margin-left: -35px;
+}
+
+.ir {
+margin-top: 20px;
+}
+
+
+
+
+.ui-grid.ib.ic.iu.iv.ih {
+margin-left: 0.
+}
+
+
+
+.ha{
+margin-left: -16px
+}
+.kr {
+ margin-left: none  ;
+}
+element.style {
+margin-left: 20px;
+}
+
+span.ui-label.cc.ap.av.ik.il.im.in.fx.by.bz.ca.cb.cd.io.cf.ip{
+padding-left: 20px;
+}
+
+span.ui-label.cc.ap.av.hk.hl.hm.hn.fx.by.bz.ca.cb.cd.ho.cf.hp {
+padding-left: 0px;
+}
+
+.ct {
+margin-left: 20px;
+}
+
+
+
+
+
+
+
+.labelgridprimary{
+margin-top: 35px !important;
+font-weight: bold;
+}
+
+
+
+.labelgrid2medio{
+margin-top: 20px;
+font-weight: bold;
+}
+
+
+
+
+
+*/ 

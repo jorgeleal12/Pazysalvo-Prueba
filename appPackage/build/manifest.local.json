@@ -1,0 +1,114 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.15",
+    "version": "1.0.0",
+    "id": "33fdc49f-f4d6-488f-9e34-a0435e2cc6b7",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://localhost:53000",
+        "privacyUrl": "https://localhost:53000/privacy",
+        "termsOfUseUrl": "https://localhost:53000/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Pazysalvos-Pgnv3-local",
+        "full": "Full name for Pazysalvos-Pgnv3"
+    },
+    "description": {
+        "short": "Short description of Pazysalvos-Pgnv3",
+        "full": "Full description of Pazysalvos-Pgnv3"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [
+        {
+            "entityId": "index",
+            "name": "Inicio",
+            "contentUrl": "https://localhost:53000/",
+            "websiteUrl": "https://localhost:53000/",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index1",
+            "name": "Areas",
+            "contentUrl": "https://localhost:53000#/areas",
+            "websiteUrl": "https://localhost:53000#/areas",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index2",
+            "name": "Solicitudes",
+            "contentUrl": "https://localhost:53000#/solicitud",
+            "websiteUrl": "https://localhost:53000#/solicitud",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index3",
+            "name": "Crea solicitud",
+            "contentUrl": "https://localhost:53000#/misdatos",
+            "websiteUrl": "https://localhost:53000#/misdatos",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index4",
+            "name": "Parametrización",
+            "contentUrl": "https://localhost:53000/parametrizar",
+            "websiteUrl": "https://localhost:53000/parametrizar",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index5",
+            "name": "Informes",
+            "contentUrl": "https://localhost:53000/informes",
+            "websiteUrl": "https://localhost:53000/informes",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index6",
+            "name": "Historial",
+            "contentUrl": "https://localhost:53000/historial",
+            "websiteUrl": "https://localhost:53000/historial",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index7",
+            "name": "Gestión documental",
+            "contentUrl": "https://localhost:53000/gestion",
+            "websiteUrl": "https://localhost:53000/gestion",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "localhost:53000"
+    ],
+    "webApplicationInfo": {
+        "id": "81077c44-a699-44f8-a0d1-bd3bea943a9b",
+        "resource": "api://localhost:53000/81077c44-a699-44f8-a0d1-bd3bea943a9b"
+    }
+}

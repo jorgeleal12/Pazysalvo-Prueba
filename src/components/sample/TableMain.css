@@ -1,0 +1,19 @@
+table tbody tr:nth-child(odd) {
+	background: #F5F5F5;
+}
+table tbody tr:nth-child(even) {
+	background: #eeeeee;
+}
+
+#tablemain .BsBsV {
+	background-color: rgb(201, 201, 201);
+    font-size: 14px;
+    font-weight:bold;
+}
+#tablemain .kVrXuC  {
+    margin: 15px;
+	width: 97% !important;
+}
+#tablemain .hbotQl {
+    color: rgb(124, 124, 124);
+}

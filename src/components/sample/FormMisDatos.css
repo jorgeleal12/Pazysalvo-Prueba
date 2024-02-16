@@ -1,0 +1,268 @@
+/*Estilo de los datos extraidos y colocados enel input*/
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    background-color: White;
+    width: 100% !important;
+    height: 30px !important;
+    font-size: 14px !important;
+    color:rgb(63, 63, 63);
+    height: 40px !important;
+    border-radius: 0% !important;
+}
+.botonmbackdatos{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin-left: 30 !important;
+}
+/*.divcompleteMisDatos{
+    width: 700px !important;
+}*/
+.divTableMisDatos{
+    width: 1020px;
+    margin: 30px;
+    margin-right: 20;
+    float: left;
+}
+.divTableMisDatos2{
+    float: left;
+    margin-top: 108;
+}
+.divTableMisDatosCrear{
+    width: 1180px;
+    margin-right: 30px;
+    float: left;
+}
+.contenedor{
+display: flex;
+}
+.datepickerDatos{
+    margin-left: 750px;
+    margin-top:-38px ;
+}
+.GridOtroUsu {
+    grid-template-columns: repeat(1, 300px) !important;
+    grid-template-rows: repeat(3, 75px) !important;
+}
+.ButtonNuevaSolicitud{
+    background-color: #6b6eb7 !important;
+    color: White !important;
+    font-weight: bold;
+    font-size: 25px !important;
+    margin-top: 18px;
+    height: 40px !important;
+    width: 150px;
+    float: left;
+}
+.DatosTable{
+    float: inline-start !important;
+    display: flex !important;
+    margin: 0px !important;
+    width: 200px;
+}
+.DatosTable input{
+    width: 280px !important;
+    height: 30px;
+    font-size: 13px !important;
+}
+.DatosTableEmergente{
+    width: 340px !important;
+    font-size: 15px !important;
+    margin: 0px !important;
+}
+.DatosTableEmergente #CorreoPersonal{
+    width: 340px !important;
+    height: 40;
+    border-radius: 0%;
+}
+.DatosTable label{
+    background-color: #eaeaea;
+    color:rgb(77, 77, 77);
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#dropEmergenteDatos .ui-dropdown__container{
+    width: 340px !important;
+    margin-top: 8px !important;
+    height: 50px;
+    border-radius: 0%;
+}
+.LabelCheck{
+    margin: 8px!important;
+}
+.LabelEmg{
+ margin-top: 10px!important;
+ width: max-content !important;
+ height: 50px !important;
+}
+.LabelEmgMisDatos{
+    margin-top: 0px!important;
+    width: max-content !important;
+    height: 50px !important;
+   }
+.HeaderDatos{
+    margin: 15px;
+    font-size: 17;
+    margin-bottom: 30;
+   /* padding-top: 30px;
+    padding-left: 40px;*/
+}
+.TxtEmgNuevaSol{
+    width: 530px;
+    height: 20px !important;
+    font-weight: bold;
+    text-decoration: underline rgb(39, 139, 206) 3px !important;  
+}
+.TxtEmgNuevaSol2{
+    width: 530px;
+    height: 70px !important;
+    font-weight: bold;
+    margin-top: 0px !important;
+    
+}
+.GridEmergente{
+    grid-template-columns: repeat(1, 250px) !important;
+    grid-template-rows: repeat(1, 50px) !important;
+}
+.GridEmergentesMisDatos{
+    grid-template-rows: repeat(1, 40px) !important;
+    margin: 5px;
+}
+
+#EmergenteCrear .ui-label{
+    margin-top: 0px !important;
+}
+#EmergenteCrear .css-1jqq78o-placeholder {
+       margin-top: -15px!important;
+       padding-left: 5px;
+}
+#EmergenteCrear .css-1dimb5e-singleValue {
+       margin-top: -10px!important;
+}
+
+#EmergenteCrear .css-13cymwt-control{
+    height: 35px;
+    min-height: 20px;
+    border-radius: 3px !important;
+}
+
+#tablaDatos1 .as{
+    margin: 20px !important;
+}
+#tablaDatos1 .ui-box{
+    width: 300px !important;
+    height: 35px !important;
+    border-width: 1px;
+    border-radius: 3px !important;
+}
+#tablaDatos1 input[id=CorreoSolicitante]{
+    background-color: rgb(212, 212, 212) !important;
+    
+}
+#tablaDatos1 input[id=NombreSolicitante]{
+    background-color: rgb(212, 212, 212) !important;
+    
+}  
+#tablaDatos2 .as{
+    margin-bottom: 30px !important;
+}
+#NuevaSolicitud .css-b62m3t-container{
+    width: 300px;
+}
+  
+#NuevaSolicitud {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 1500px){
+    .divTableMisDatos{
+        width: 1200px;
+        height: 300px;
+        margin-right: 30px;
+        margin-bottom: 0px !important;
+        float: left;
+    }
+    #NuevaSolicitud {
+    width: 980px !important;
+    }
+    #NuevaSolicitud .people-picker{
+        width: 298px;
+        border-radius: 3px;
+    }
+    #NuevaSolicitud .css-b62m3t-container{
+        width: 300px;
+    }
+    #EmergenteCrear .css-13cymwt-control{
+        width: 300px !important; 
+    }
+    .GridOtroUsu {
+        grid-template-columns: 300px 300px 300px!important;
+        grid-column-gap: 40px;
+        grid-template-rows: repeat(1,75px)!important;
+    }
+    .divTableMisDatos2 {
+        float: left;
+        margin-top: 0px !important;
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .divTableMisDatos{
+        width: 700px;
+        height: 450px;
+        margin-right: 30px;
+        float: left;
+    }
+    .divTableMisDatos2 {
+        margin-top: 0px !important;
+    }
+    
+    #EmergenteCrear .css-13cymwt-control{
+        width: 300px !important; 
+    }
+    #NuevaSolicitud .people-picker{
+        width: 298px !important;
+        border-radius: 3px !important;
+    }
+    .GridOtroUsu {
+        grid-template-columns: 300px 680px !important;
+        grid-template-rows: repeat(3,75px)!important;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .divTableMisDatos{
+        width: 500px;
+        height: 750px;
+        margin-right: 30px;
+        float: left;
+    }
+    .divTableMisDatos2 {
+        margin-top: 0px !important;
+    }
+    input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+        width: 350px !important;
+    }
+    .ButtonNuevaSolicitud{
+        margin-top: 0px;
+        width: 500px;
+    }
+    html {
+        min-width: 300px !important;
+    }
+    #NuevaSolicitud .people-picker{
+        width: 298px;
+        border-radius: 3px;
+    }
+    
+    #EmergenteCrear .css-13cymwt-control{
+        width: 300px !important; 
+    }
+    .GridOtroUsu {
+        grid-template-columns: 300px 680px !important;
+        grid-template-rows: repeat(3,75px)!important;
+    }
+}
+    
